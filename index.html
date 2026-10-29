@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of the Department of Computer Science and Engineering, Sample College of Engineering.">
+  <title>Department of Computer Science and Engineering</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER AND NAVIGATION ===== -->
+  <header>
+    <img src="images/logo.png" alt="Department of CSE logo" width="90" height="90">
+    <div>
+      <h1>Department of Computer Science and Engineering</h1>
+      <p>Federal Instutute of Science and Technology&ndash; Affiliated to KTU</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#programmes">Programmes</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#enquiry">Enquiry</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <h2>About the Department</h2>
+<p>The Department of Computer Science and Engineering at
+   <strong>FISAT</strong> focuses on quality education in computing.
+   It encourages <em>research, innovation</em> and technical skills
+   to prepare students for industry and society.</p>
+
+<article>
+  <h3>Vision</h3>
+  <p>To achieve excellence in computer science education, research
+     and professional development.</p>
+</article>
+
+<article>
+  <h3>Mission</h3>
+  <p>To provide quality education, promote innovation and develop
+     technically skilled and socially responsible professionals.</p>
+</article>
+<hr>
+    </section>
+
+    <!-- ===== PROGRAMMES AND SUBJECTS ===== -->
+    <section id="programmes">
+      <h2>Academic Programmes</h2>
+      <ul>
+        <li>B.Tech in Computer Science and Engineering (4 years)</li>
+        <li>M.Tech in Computer Science and Engineering (2 years)</li>
+        <li>Ph.D. in Computer Science (Research)</li>
+      </ul>
+
+      <h3>Core Subjects Offered</h3>
+      <ol>
+        <li>Data Structures and Algorithms</li>
+        <li>Database Management Systems</li>
+        <li>Operating Systems</li>
+        <li>Computer Networks</li>
+        <li>Web Programming</li>
+        <li>Machine Learning</li>
+      </ol>
+
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="https://intranet.fisat.ac.in" target="_blank" rel="noopener noreferrer">College Website</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML Documentation</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools HTML Tutorial</a></li>
+        <li><a href="mailto:paulpmathai@fisat.ac.in">Email the Head of Department</a></li>
+      </ul>
+    </section>
+
+    <!-- ===== FACULTY ===== -->
+    <section id="faculty">
+      <h2>Our Faculty</h2>
+      <table>
+        <caption>Faculty members of the Department of CSE</caption>
+        <thead>
+          <tr>
+            <th scope="col">Sl. No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Designation</th>
+            <th scope="col">Area of Specialization</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Dr. Paul P Mathai</td><td>Professor and HoD</td><td>Machine Learning</td></tr>
+          <tr><td>2</td><td>Dr. Neenu Johnson</td><td>Professor</td><td>Computer Networks</td></tr>
+          <tr><td>3</td><td>Ms. Deena Jose</td><td>Associate Professor</td><td>Database Systems</td></tr>
+          <tr><td>4</td><td>Mr. Arun Varghese</td><td>Assistant Professor</td><td>Web Technologies</td></tr>
+          <tr><td>5</td><td>Ms. Meenu Mathew</td><td>Assistant Professor</td><td>Cyber Security</td></tr>
+          <tr><td>6</td><td>Mr. Vishnu Prasad</td><td>Assistant Professor</td><td>Operating Systems</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ===== FACILITIES ===== -->
+    <section id="facilities">
+      <h2>Facilities</h2>
+      <article>
+        <h3>Computer Laboratories</h3>
+        <p>Three air-conditioned labs with 120 high-performance systems and
+           high-speed internet.</p>
+      </article>
+      <article>
+        <h3>Research Centre</h3>
+        <p>A dedicated centre for AI, IoT and cyber security projects.</p>
+      </article>
+      <article>
+        <h3>Department Library</h3>
+        <p>Over 2,000 reference books, journals and e-resources.</p>
+      </article>
+    </section>
+
+    <!-- ===== ENQUIRY FORM ===== -->
+    <section id="enquiry">
+      <h2>Student Enquiry Form</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </p>
+        <p>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit mobile number" required>
+        </p>
+        <p>
+          <label for="course">Course Preference:</label><br>
+          <select id="course" name="course" required>
+            <option value="">-- Select a course --</option>
+            <option value="btech">B.Tech CSE</option>
+            <option value="mtech">M.Tech CSE</option>
+            <option value="phd">Ph.D. Computer Science</option>
+          </select>
+        </p>
+        <p>
+          <label for="message">Message (optional):</label><br>
+          <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit Enquiry</button>
+          <button type="reset">Clear</button>
+        </p>
+      </form>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <address>
+        Head of Department<br>
+        Department of Computer Science and Engineering<br>
+        FISAT, Kerala, India &ndash;  683 577<br>
+        Phone: <a href="tel:+91 9495737577">+91 9495737577</a><br>
+        Email: <a href="mailto:paulpmathai@fisat.ac.in">paulpmathai@fisat.ac.in</a>
+      </address>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2026 Department of Computer Science and Engineering. All rights reserved.</p>
+    <p><a href="#top">Back to top</a> | Designed by Adarsh N A (S7 CSE A)</p>
+  </footer>
+
+</body>
+</html>
